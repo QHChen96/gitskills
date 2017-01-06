@@ -18,3 +18,5 @@ git reset --hard 版本号
 git reflog
 //查看工作区和版本库里面最新版本的区别
 git diff HEAD -- README.md
+//丢弃工作区的修改
+git checkout -- README.md
