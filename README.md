@@ -20,3 +20,5 @@ git reflog
 git diff HEAD -- README.md
 //丢弃工作区的修改
 git checkout -- README.md
+//把暂存区的修改撤销掉
+git reset HEAD README.md
