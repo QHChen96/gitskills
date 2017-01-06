@@ -16,3 +16,5 @@ git reset --hard HEAD^
 git reset --hard 版本号
 //后悔药
 git reflog
+//查看工作区和版本库里面最新版本的区别
+git diff HEAD -- README.md
