@@ -34,3 +34,5 @@ git remote add origin git@github.com:QHChen96/gitskills.git
 git push -u origin master
 //强制推送
 git push -f origin master
+//本地作了提交，就可以通过命令
+git push origin master
