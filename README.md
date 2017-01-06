@@ -1,0 +1,18 @@
+gitskills
+
+git add JavaScript/test.js
+git commit -m "提交"
+//当前状态
+git status
+//不同
+git diff JavaScript/test.js
+//历史
+git log
+//简化
+git log --pretty=oneline
+//回退到上一个版本
+git reset --hard HEAD^
+//会退到某一个版本
+git reset --hard 版本号
+//后悔药
+git reflog
