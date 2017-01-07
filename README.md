@@ -38,3 +38,10 @@ git push -f origin master
 git push origin master
 加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支
 git push -u origin master
+//创建dev分支,并切换
+git checkout -b dev
+//以上相当于
+git branch dev
+git checkout dev
+//查看当前分支
+git branch
