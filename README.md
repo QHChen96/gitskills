@@ -40,8 +40,16 @@ git push origin master
 git push -u origin master
 //创建dev分支,并切换
 git checkout -b dev
-//以上相当于
+/*以上相当于
+创建分支
 git branch dev
+切换分支
 git checkout dev
+*/
 //查看当前分支
 git branch
+//合并分支
+git merge dev
+//删除分支
+git branch -d dev
+//124124124
