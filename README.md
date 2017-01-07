@@ -54,5 +54,26 @@ git merge dev
 git branch -d dev
 //git log 查看分支合并情况
 git log --graph --pretty=oneline --abbrev-commit
+//合并分支，禁用fast forward，Git就会在merge时生成一个新的commit
+git merge --no-ff -m "merge with no-ff" dev
+//把当前工作现场“储藏”，针对，与当前代码无关，要解决其他问题
+git stash
+//恢复
+git stash apply
+//恢复但会删除stash
+git stash pop
+//stash列表
+git stash list
+//多人协作
+//查看远程库信息
+git remote
+//更详细
+git remote -v
+//推送
+git push orgin master
+//抓取
+git clone
+
+
 
 
