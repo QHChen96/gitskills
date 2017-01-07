@@ -73,7 +73,33 @@ git remote -v
 git push orgin master
 //抓取
 git clone
-
+//在dev分支上开发，就必须创建远程origin的dev分支到本地
+git checkout -b dev origin/dev
+//抓取
+git pull
+//本地dev与远程origin/dev分支的连接
+git branch --set-upstream dev origin/dev
+//tag相当于给commit起个别名
+git tag v1.0
+//查看所有标签
+git tag
+//打标签
+git tag v0.9 6224937
+//查看标签信息
+git show <tagname>
+//通过-s用私钥签名一个标签
+git tag -s v0.2 -m "signed version 0.2 released" fec145a
+//删除标签
+git tag -d v0.1
+//推送标签
+git push origin v1.0
+//推送全部标签
+git push origin --tag
+/*
+删除远程标签
+git tag -d v0.9
+git push origin :refs/tags/v0.9
+*/
 
 
 
