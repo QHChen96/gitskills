@@ -36,3 +36,5 @@ git push -u origin master
 git push -f origin master
 //本地作了提交，就可以通过命令
 git push origin master
+加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支
+git push -u origin master
